@@ -16,7 +16,9 @@ import com.doubleslash.picky.R;
 
 public class TeamroomFragment extends Fragment {
 
-    private TeamroomViewModel mViewModel;
+    private static final String Tag = "TeamroomFragment";
+
+    private TeamroomViewModel teamroomViewModel;
 
     public static TeamroomFragment newInstance() {
         return new TeamroomFragment();
@@ -31,8 +33,9 @@ public class TeamroomFragment extends Fragment {
     @Override
     public void onActivityCreated(@Nullable Bundle savedInstanceState) {
         super.onActivityCreated(savedInstanceState);
-        mViewModel = new ViewModelProvider(this).get(TeamroomViewModel.class);
+        teamroomViewModel = new ViewModelProvider(this).get(TeamroomViewModel.class);
         // TODO: Use the ViewModel
+
     }
 
 }
