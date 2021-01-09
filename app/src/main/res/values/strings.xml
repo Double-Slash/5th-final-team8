@@ -103,4 +103,5 @@
     <string name="invalid_username">Not a valid username</string>
     <string name="invalid_password">Password must be >5 characters</string>
     <string name="login_failed">"Login failed"</string>
+    <string name="kakao_app_key">9c13236a5b607848eb2a0b35d6b013a2</string>
 </resources>
